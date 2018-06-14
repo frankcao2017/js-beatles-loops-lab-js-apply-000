@@ -18,11 +18,11 @@ const facts = [
         "He hated the sound of his own voice"
         ];
         
-function johnLennonFacts(arr) {
+function johnLennonFacts(arg) {
   var newFacts = [];
   var i = 0;
-  while (i < arr.length) {
-    newFacts.push(arr[i] + "!!!")
+  while (i < arg.length) {
+    newFacts.push(arg[i] + "!!!")
     i++;
   }
   return newFacts;
