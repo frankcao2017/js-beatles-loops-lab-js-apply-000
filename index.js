@@ -22,11 +22,12 @@ function johnLennonFacts(arr) {
   var newFacts = [];
   var i = 0;
   while (i < facts.length) {
-    newFacts.push(facts[i] + "!!!")
+    newFacts.push(arr[i] + "!!!")
     i++;
   }
   return newFacts;
 }
+johnLennonFacts(facts); 
 
 // var facts = [
 //   "He was the last Beatle to learn to drive",
